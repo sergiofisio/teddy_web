@@ -1,7 +1,6 @@
 import { useState } from "react";
 import InputComponent from "./../components/input/index";
 import ButtonComponent from "./../components/button/index";
-import { toast } from "react-toastify";
 import { toastFail, toastSuccess } from "./../context/toast";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
