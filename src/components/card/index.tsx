@@ -95,7 +95,7 @@ export default function Card({
           onClick={() => {
             type === "selecionado"
               ? handleRemoveCliente(cliente)
-              : setModal({ type: "delete", cliente });
+              : setModal({ type: "delete", id: cliente.id });
           }}
           src={type === "selecionado" ? minus : trash}
           alt="Remover Cliente"
