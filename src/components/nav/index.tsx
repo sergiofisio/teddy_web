@@ -43,7 +43,7 @@ export default function NavBar({
 
   function handleLogout() {
     localStorage.removeItem("nome");
-    navigate("/login");
+    navigate("/");
   }
 
   return (
